@@ -1,0 +1,221 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #444444;
+    height: auto;
+    color: white;
+    font-family: calibri Light;
+    position: fixed; /* ตำแหน่งคงที่ */
+    top: 0; /* จัดให้อยู่ด้านบนของหน้าจอ */
+    z-index: 1000; /* ทำให้แน่ใจว่าอยู่เหนือองค์ประกอบอื่น ๆ */
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    color: white;
+    background-color: #444444;
+    font-family: calibri Light;
+    width: 80%;
+    height: 4rem;
+    z-index: 1000;
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 1rem;
+    cursor: pointer;
+    width: auto;
+    padding-right: 1%;
+}
+
+.hlogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 2%;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.d-First{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.d-End{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: flex-end;
+    font-size: 14px;
+
+}
+
+.nav-links li {
+    position: relative;
+    margin: 0;
+    padding: 1.4rem 1rem 1.4rem 1rem;
+    cursor: pointer;
+
+}
+
+
+.nav-links li:hover {
+    background-color: #bcbcbc;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 4px 0;
+}
+
+.sub-menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.5rem;
+    cursor: pointer;
+    padding: 0;
+    font-family: calibri Light;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-menu li {
+    margin: 0;
+    cursor: pointer;
+    width: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+.sub-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        background: #444444;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-links.open {
+        transform: translateX(0);
+
+    }
+
+    .nav-links li {
+        width: 92%;
+        padding: 1rem 0rem 1rem 1rem;
+        text-align: left;
+
+
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .sub-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        background: #444;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-menu li {
+        margin: 0;
+        cursor: pointer;
+        width: 10rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: left;
+    }
+
+    .sub-menu a {
+        padding: 0.5rem 1rem;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .d-First{
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .d-End{
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
