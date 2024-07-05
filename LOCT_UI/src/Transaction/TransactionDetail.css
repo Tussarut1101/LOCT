@@ -1,0 +1,745 @@
+.AearF {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+}
+
+.AearCenterF {
+    width: 70%;
+}
+
+.AearLeftRightF {
+    width: 15%;
+}
+.HeadLinkBack{
+    display: flex;
+    font-family: calibri system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+}
+
+.cHeadLoct {
+    width: 100%;
+    font-family: calibri Light;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    background: #DEAB62;
+    border: 1px solid #DEAB62;
+
+}
+
+.cHeadIect {
+    width: 100%;
+    font-family: calibri Light;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 1rem 0rem 1rem 0rem;
+    background: #B7D3CB;
+    border: 1px solid #B7D3CB;
+
+}
+
+.cPanelForm{
+    display: block;
+    width: 100%;
+    border: 1px solid #e1e0e0;
+    background-color: #ffffff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.react-select {
+    width: 90% !important;
+}
+
+.react-select-control {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.react-select-menu {
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.datepicker-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-datepicker {
+    font-size: 14px;
+    font-family: calibri Light;
+    padding: 12px 12px 12px 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.datepicker-icon {
+    position: absolute;
+    right: -6%;
+    top: 45%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+}
+
+.cRowFlexForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-family: calibri Light;
+    font-size: 14px;
+}
+
+.cTilteFF{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0.2rem;
+}
+
+.cTilteFF2{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.2rem;
+}
+
+.cTilteEF{
+    width: 12%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0.2rem;
+}
+
+.cTilteEF2{
+    width: 12%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0.2rem;
+}
+
+.cTilteSubF{
+    display: block;
+    text-align: right;
+}
+
+.cToolsF{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0.2rem;
+}
+
+.cToolsF2{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 0.2rem;
+    padding-right: 2.3rem;
+}
+
+.cToolsF3{
+    width: 72%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0.2rem;
+}
+.cNoneF{
+    width: 8%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0.2rem;
+}
+
+.dTextF{
+    width: 83%;
+}
+
+.dTextEmpF{
+    width: 83%;
+}
+
+.dTextSupject{
+    width: 93%;
+}
+
+.dTextLeader{
+    width: 78%;
+}
+
+.dTextSTG{
+    width: 35%;
+}
+
+.dTextCC{
+    width: 56%;
+}
+
+.dTextName{
+    width: 60%;
+}
+
+.dTextAear{
+    width: 93%;
+    height: 100px;
+}
+
+.d10Per{
+    width: 10%;
+}
+
+.d80Per{
+    width: 80%;
+    background-color: #BFC9C7;
+    height: 1px;
+}
+
+.dTextNumber{
+    width: 83%;
+    text-align: right;
+}
+
+.panelLeader{
+    display: block;
+    border: 1px solid #D7D4D6;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%;
+}
+
+.panelSubLeader{
+    display: flex;
+    margin: 1rem;
+}
+
+.sLeaderFirst{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 0.2rem;
+    width: 35%;
+}
+
+.sLeaderEnd{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0.2rem;
+    width: 65%;
+}
+
+.react-selectSup {
+    width: 83% !important;
+}
+
+.react-selectSup-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.react-selectSup-menu {
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sLeaderFirst2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 0.2rem;
+    width: 25%;
+}
+
+.sLeaderEnd2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0.2rem;
+    width: 75%;
+}
+
+.sLeaderCC{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+.icon-buttonADDTeam {
+    background-color: rgb(81, 214, 152);
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.icon-buttonADDTeam:hover {
+    background-color: rgb(50, 179, 115);
+}
+
+.icon-buttonADDTeam:focus {
+    outline: none;
+}
+
+.icon-buttonADDTeam svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.file-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.file-upload-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.dropzone {
+    width: 100%;
+    max-width: 600px;
+    padding: 3rem;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    background: #fff;
+    text-align: center;
+    transition: border 0.3s ease;
+    cursor: pointer;
+}
+
+.dropzone p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.dropzone.dragging {
+    border-color: #28a745;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.upload-button:hover {
+    background: #218838;
+}
+
+.file-input {
+    display: none;
+}
+.file-link {
+    margin-top: 10px;
+}
+
+.file-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.file-link a:hover {
+    text-decoration: underline;
+}
+
+.grid-containerTeam {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: auto;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.table-titleTeam {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grid-tableTeam {
+    /* width: 100%; */
+    border-collapse: separate;
+    border-spacing: 0;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px rgba(121, 44, 121, 0.1);
+    border: 1px solid #9f9f9f;
+
+}
+
+.grid-tableTeam th {
+    border: 1px solid #eaeaea;
+    padding: 1%;
+}
+
+.grid-tableTeam td {
+    background-color: #ffffff;
+    border: 1px solid #dfe0e06c;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-size: 12px;
+    font-family: calibri Light;
+}
+
+.grid-tableTeam th {
+    background-color: #e2e3e2;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: calibri system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
+}
+
+.icon-buttonSaveD {
+    background-color: rgb(235, 243, 239);
+    border: #000 1px solid;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.icon-buttonSaveD:hover {
+    background-color: rgb(122, 122, 122);
+}
+
+.icon-buttonSaveD:focus {
+    outline: none;
+}
+
+.icon-buttonSaveD svg {
+    width: 20px;
+    height: 20px;
+    color: #000;
+    margin-right: 5px;
+}
+
+.icon-buttonSubmitD {
+    background-color: rgb(239, 134, 69);
+    border: rgb(170, 91, 42) 1px solid;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    align-items: center;
+    display: flex;
+    color: #3e3d3a;
+}
+
+.icon-buttonSubmitD:hover {
+    background-color: rgb(159, 87, 42);
+}
+
+.icon-buttonSubmitD:focus {
+    outline: none;
+}
+
+.icon-buttonSubmitD svg {
+    width: 20px;
+    height: 20px;
+    color: #dfc69d;
+    margin-right: 5px;
+}
+
+.icon-buttonReD {
+    background-color: rgb(239, 35, 35);
+    border: rgb(239, 35, 35) 1px solid;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    align-items: center;
+    display: flex;
+    color: #fff;
+}
+
+.icon-buttonReD:hover {
+    background-color: rgb(154, 21, 21);
+}
+
+.icon-buttonReD:focus {
+    outline: none;
+}
+
+.icon-buttonReD svg {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.cRowbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.icon-buttonDel {
+    background-color: rgb(248, 6, 6);
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonDel:hover {
+    background-color: rgb(185, 4, 4);
+}
+
+.icon-buttonDel:focus {
+    outline: none;
+}
+
+.icon-buttonDel svg {
+    width: 12px;
+    height: 12px;
+    color: white;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .AearF {
+        margin-top: 1rem;
+    }
+
+    .AearCenterF {
+        width: 90%;
+    }
+
+    .AearLeftRightF {
+        width: 5%;
+    }
+
+    .cPanelForm{
+        display: block;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .cRowFlexForm {
+        width: 100%;
+        display: block;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+    
+    .cTilteFF{
+        width: 100%;
+        display: block;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .cTilteFF2{
+        width: 100%;
+        display: block;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .cTilteEF{
+        width: 100%;
+        display: block;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .cTilteEF2{
+        width: 100%;
+        display: block;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .cTilteSubF{
+        display: flex;
+        text-align: left;
+    }
+    
+    .cToolsF{
+        width: 100%;
+        display: block;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .cToolsF2{
+        width: 100%;
+        display: block;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .cToolsF3{
+        width: 100%;
+        display: block;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .cNoneF{
+       display: none;
+    }
+
+    .dTextF{
+        width: 85%;
+    }
+
+    .dTextEmpF{
+        width: 75%;
+    }
+
+    .dTextSupject{
+        width: 85%;
+    }
+
+    .dTextAear{
+        width: 85%;
+    }
+
+    .d10Per{
+        display: none;
+    }
+    
+    .d80Per{
+        width: 100%;
+    }
+
+    .dTextNumber{
+        width: 85%;
+    }
+
+    .panelSubLeader{
+        display: block;
+    }
+
+    .sLeaderFirst{
+        display: block;
+        margin-left: -0.8rem;
+        width: 120%;
+    }
+    
+    .sLeaderEnd{
+        display: block;
+        margin-left: -0.8rem;
+        width: 100%;
+    }
+
+    .dTextLeader{
+        width: 78%;
+    }
+
+    .sLeaderFirst2{
+        display: block;
+        margin-right: 0rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .sLeaderEnd2{
+        display: block;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .dTextSTG{
+        width: 50%;
+    }
+
+    .dTextCC{
+        width: 50%;
+    }
+
+    .dTextName{
+        width: 78%;
+    }
+
+    .sLeaderCC{
+        margin-top: 1rem;
+        display: block;
+        margin-left: 0%;
+        width: 100%;
+        
+    }
+
+    .icon-buttonADDTeam {
+        border: none;
+        margin-left: 45%;
+        margin-top: 0.5rem;
+    }
+
+    .dropzone {
+        width: 80%;
+        padding: 1rem;
+        border: 2px dashed #007bff;
+        border-radius: 8px;
+        background: #fff;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .cCoverApp{
+        width: 90%;
+    }
+
+   
+
+}
